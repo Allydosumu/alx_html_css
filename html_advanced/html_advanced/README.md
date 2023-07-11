@@ -2,4 +2,4 @@
 <h2 style="font-family:verdana;">Description</h2> 
 <p style="font-family:verdana;">For this project, I will be creating a webpage from scratch using the wireframe provided on ALx ISWE intranet.</p>
 <p style="font-family:verdana;">An illustration of how the webpage should appear is present here <a href="https://www.figma.com/file/dyYL6Ku4WG7vsdpwvlcJZC/Homepage?type=design&node-id=0-1&mode=design&t=UuFemdbqEjW0rQH9-0" target="_blank">figma</a>.</p>
-<img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F6%2F61%2FHTML5_logo_and_wordmark.svg&tbnid=O2LAft90i-2uhM&vet=12ahUKEwi_pZOZloeAAxWQsScCHfMUC3MQMygAegUIARDjAQ..i&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHTML&docid=1Ted8cCjatfjsM&w=800&h=800&itg=1&q=html&ved=2ahUKEwi_pZOZloeAAxWQsScCHfMUC3MQMygAegUIARDjAQ">
+![HTML5 Logo](https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png)
