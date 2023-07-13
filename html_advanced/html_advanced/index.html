@@ -1,159 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+    
+<head>
         <meta charset="UTF-8">
         <title>School Page</title>
-    </head>
+</head>
 
-    <body>
-        <header>
-            <a href="#">SmileSchool</a>
-            <div style="border:1px solid black;padding:10px;font: size 10px"> 
+<body>
+    <header>
+        <a href="#">
             <img src="data:image/png;base64,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" alt="smile for school">
+        </a>
+           
         <div class="links">
             <a href="#">COURSES</a>
             <a href="#">PRICING</a>
             <a href="#">LOGIN</a>
         </div>
-        </header>
-        <div style="border:1px solid blue;padding:20px;font-size:20px"> 
-            <main>
-                <section>
-                <div>
-                    <h1 style="text-align:center">Get Schooled</h1>
-                    <p style="text-align:center">SMILES <em> GRIN <em> LAUGH</p>
-                            <button name="button" type="button">REGISTER FOR FREE</button>
-                </div>
-                <div>
-                    <h2>Learn from the pros</h2>
-                </div>
-                <div>
-                    <img src="C:/Pictures/images.png">alt="Man"
-                    <h2>Phillip Massey</h2>
-                    <p>Smile of the year</p>
-                    <p> 2018<em>-<em>2019</p>
-                </div>
+    </header>
+    
+    <main>
+        <section>
+            <div>
+                <h1 style="text-align:center">Get Schooled</h1>
+                <p style="text-align:center">SMILES <em> GRIN <em> LAUGH</p>
+                <button name="button" type="button">REGISTER FOR FREE</button>
+            </div>
+        </section>
 
-                <div>
-                    <img src="C:/Pictures/images.png">alt="Woman"
-                    <h2>Nannie Lawrence</h2>
-                    <p>Best little smile</p>
-                    <p>2017</p>
-                </div>
-
-                <div>
-                    <img src="C:/Pictures/images.png">alt="Man"
-                    <h2>Bruce Walters</h2>
-                    <p>Best Friend Smile</p>
-                    <p>live performance 2019</p>
-                </div>
-
-                <div>
-                    <img src="C:/Pictures/images.png">alt="Man"
-                    <h2>Henry Hughes</h2>
-                    <p>24h smiles winner</p>
-                    <p> 2016<em>-<em>2019</p>
-                </div>
-                </section>
+        <section>
+            <div>
+                <h2>Learn from the pros</h2>
             </div>
 
-                <section>
-                    <img src="C:/Pictures/images.png" alt="Human">
-                    <q>Those tutorials are concise and go straight to the point. I can't think of a better place to learn smiling. And it's so fun!</q>
-                    <p>Person Name</p>
-                    <p>weather presenter</p>
-                </section>
+            <div>
+                <img src="C:/Pictures/images.png">alt="Man"
+                <h2>Phillip Massey</h2>
+                <p>Smile of the year</p>
+                <p> 2018<em>-<em>2019</p>
+            </div>
 
-                <section>
-                   <div>
-                    <h3>Most <strong>popular</strong> tutorials</h3>
-                   </div> 
+            <div>
+                <img src="C:/Pictures/images.png">alt="Woman"
+                <h2>Nannie Lawrence</h2>
+                <p>Best little smile</p>
+                <p>2017</p>
+            </div>
 
-                   <div>
-                    <img src="C:/Pictures/images.png">
-                    <h3>Diagonal Smile</h3>
-                    <p>Comment goes here</p>
-                   </div>
+            <div>
+                <img src="C:/Pictures/images.png">alt="Man"
+                <h2>Bruce Walters</h2>
+                <p>Best Friend Smile</p>
+                <p>live performance 2019</p>
+            </div>
 
+            <div>
+                <img src="C:/Pictures/images.png">alt="Man"
+                <h2>Henry Hughes</h2>
+                <p>24h smiles winner</p>
+                <p> 2016<em>-<em>2019</p>
+            </div>
+        </section>
+        
+        <section>
+            <img src="C:/Pictures/images.png" alt="Human">
+            <q>Those tutorials are concise and go straight to the point. I can't think of a better place to learn smiling. And it's so fun!</q>
+            <p>Person Name</p>
+            <p>weather presenter</p>
+        </section>
+
+        <section>
+           <div>
+                <h3>Most <strong>popular</strong> tutorials</h3>
+           </div> 
+
+           <div>
+                <img src="C:/Pictures/images.png">
+                <h3>Diagonal Smile</h3>
+                <p>Comment goes here</p>
+           </div>
                    
-                   <div>
-                    <img src="C:/Pictures/images.png">
-                    <h3>Sad smile</h3>
-                    <p>Comment goes here</p>
-                   </div>
-
+           <div>
+                <img src="C:/Pictures/images.png">
+                <h3>Sad smile</h3>
+                <p>Comment goes here</p>
+            </div>
+        
+            <div>
+                <img src="C:/Pictures/images.png">
+                <h3>Natural Smile</h3>
+                <p>Comment goes here</p>
+            </div>
                    
-                   <div>
-                    <img src="C:/Pictures/images.png">
-                    <h3>Natural Smile</h3>
-                    <p>Comment goes here</p>
-                   </div>
+            <div>
+                <img src="C:/Pictures/images.png">
+                <h3>Happy Smile</h3>
+                <p>Comment goes here</p>
+            </div>
 
+            <div>
+                <img src="C:/Pictures/images.png">
+                <h3>Phillip Massey</h3>
+            </div>
+
+            <div>
+                <img src="C:/Pictures/images.png">
+                <p>8 min</p>
+            </div>
+                
+            <div>
+                <img src="C:/Pictures/images.png">
+                <p>8 min</p>
+            </div>
                    
-                   <div>
-                    <img src="C:/Pictures/images.png">
-                    <h3>Happy Smile</h3>
-                    <p>Comment goes here</p>
-                   </div>
+            <div>
+                <img src="C:/Pictures/images.png">
+                <p>8 min</p>
+            </div>
+                 
+            <div>
+                <img src="C:/Pictures/images.png">
+                <p>8 min</p>
+                </div>
+            </section>
 
-                   <div>
-                    <img src="C:/Pictures/images.png">
-                    <h3>Phillip Massey</h3>
-                   </div>
-
-                   <div>
-                    <img src="C:/Pictures/images.png">
-                    <p>8 min</p>
-                   </div>
-
-                   
-                   <div>
-                    <img src="C:/Pictures/images.png">
-                    <p>8 min</p>
-                   </div>
-
-                   
-                   <div>
-                    <img src="C:/Pictures/images.png">
-                    <p>8 min</p>
-                   </div>
-
-                   
-                   <div>
-                    <img src="C:/Pictures/images.png">
-                    <p>8 min</p>
-                   </div>
-                </section>
-
-                <section>
+            <section>
                     <h3><strong>Free</strong>membership</h3>
-                    <div>
-                        <!-- Content of the first block -->
-                        <img src="C:/Pictures/images.png">
-                        <h4>Option 1</h4>
-                        <p>Text for Option 1</p>
-                    </div>
+                <div>
+                    <!-- Content of the first block -->
+                    <img src="C:/Pictures/images.png">
+                    <h4>Option 1</h4>
+                    <p>Text for Option 1</p>
+                 </div>
 
-                    <div>
-                        <!-- Content of the second block -->
-                        <img src="C:/Pictures/images.png">
-                        <h4>Option 2</h4>
-                        <p>Text for Option 2</p>
-                    </div>
+                <div>
+                    <!-- Content of the second block -->
+                    <img src="C:/Pictures/images.png">
+                    <h4>Option 2</h4>
+                    <p>Text for Option 2</p>
+                </div>
 
-                    <div>
-                        <!-- Content of the third block -->
-                        <img src="C:/Pictures/images.png">
-                        <h4>Option 3</h4>
-                        <p>Text for Option 3</p>
-                    </div>
+                <div>
+                    <!-- Content of the third block -->
+                    <img src="C:/Pictures/images.png">
+                    <h4>Option 3</h4>                        <p>Text for Option 3</p>
+                </div>
 
-                    <div>
-                        <!-- Content of the fourth block -->
-                        <img src="C:/Pictures/images.png">
-                        <h4>Option 4</h4>
-                        <p>Text for Option 4</p>
-                    </div>
+                <div>
+                    <!-- Content of the fourth block -->
+                    <img src="C:/Pictures/images.png">
+                    <h4>Option 4</h4>                        <p>Text for Option 4</p>
+                </div>
 
                     <button name="button" type="button">REGISTER FOR FREE</button>
                 </section>
@@ -171,8 +168,8 @@
                           margin-right: 10px;
                         }
                       </style>
-                              <div class="row">
-                        <div class="block">
+                        <div class="row"></div>
+                        <div class="block"></div>
                           <!-- Content of the first block -->
                           <h2>Block 1</h2>
                           <p>This is the content of Block 1.</p>
@@ -189,18 +186,40 @@
                 </section>
             </main>
             <footer>
-                <div class="row">
-                <div class="block">
+                <div class="row"></div>
+                <div class="block"></div>
 
                 <div>
                       <img src="path/to/image.png" alt="Image">
                 </div>
-                      <div>
-                        <a href="#">
-                            <img src="path/to/image.png" alt="Image">
-                        </a>
-                      <p>This is the content of Block 1.</p>
-                    </div>
+                    
+                <div>
+                    <a href="#">
+                        <img src="path/to/image.png" alt="Image">
+                    </a>
+                    <p>This is the content of Block 1.</p>
+                </div>
+
+                <div>
+                    <a href="#">
+                        <img src="path/to/image.png" alt="Image">
+                    </a>
+                    <p>This is the content of Block 1.</p>
+                </div>
+
+                <div>
+                    <a href="#">
+                        <img src="path/to/image.png" alt="Image">
+                    </a>
+                    <p>This is the content of Block 1.</p>
+                </div>
+
+                <div>
+                    <a href="#">
+                        <img src="path/to/image.png" alt="Image">
+                    </a>
+                    <p>This is the content of Block 1.</p>
+                </div>
             </footer>
     </body>
 </html>
