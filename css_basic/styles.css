@@ -1,0 +1,31 @@
+/* Applying flex property to main and body */
+body, main {
+    display: flex;
+}
+
+/* column property on body */
+body {
+    flex-direction: column;
+    font: 16px/1.0;
+    font-family: "Georgia", Garamond, Serif; 
+    margin: 0;
+    background-color: whitesmoke;  
+}
+
+/* row property on main */
+main {
+    flex-direction: row;
+    flex: auto;
+}
+
+/* Article to cover 2/3 width */
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+/* Aside to cover 1/3 width */
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
