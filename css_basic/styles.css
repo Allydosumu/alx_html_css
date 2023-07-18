@@ -29,3 +29,7 @@ aside {
     flex: 1;
     overflow-y: auto;
 }
+
+header {
+    text align: right;
+}
